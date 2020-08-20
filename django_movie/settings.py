@@ -175,13 +175,6 @@ CKEDITOR_CONFIGS = {
             ]},
         ],
         'toolbar': 'YourCustomToolbarConfig',  # put selected toolbar config here
-        # 'toolbarGroups': [{ 'name': 'document', 'groups': [ 'mode', 'document', 'doctools' ] }],
-        # 'height': 291,
-        # 'width': '100%',
-        # 'filebrowserWindowHeight': 725,
-        # 'filebrowserWindowWidth': 940,
-        # 'toolbarCanCollapse': True,
-        # 'mathJaxLib': '//cdn.mathjax.org/mathjax/2.2-latest/MathJax.js?config=TeX-AMS_HTML',
         'tabSpaces': 4,
         'extraPlugins': ','.join([
             'uploadimage', # the upload image feature
@@ -204,8 +197,8 @@ CKEDITOR_CONFIGS = {
 }
 
 
-RECAPTCHA_PUBLIC_KEY = "6Lc4sd4UAAAAALspxT-nPg4MLtb0ZD9ikf_fVFvg"
-RECAPTCHA_PRIVATE_KEY = "6Lc4sd4UAAAAANY6KDjEa0z1fhAdUo9HyGxy06Lq"
+RECAPTCHA_PUBLIC_KEY = ""
+RECAPTCHA_PRIVATE_KEY = ""
 RECAPTCHA_DEFAULT_ACTION = 'generic'
 RECAPTCHA_SCORE_THRESHOLD = 0.5
 
